@@ -4,12 +4,12 @@
 Summary:	Devel::PreProcessor perl module
 Summary(pl):	Modu³ perla Devel::PreProcessor
 Name:		perl-Devel-PreProcessor
-Version:	1999.0220
-Release:	7
+Version:	2003.1128
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	40229f31c9f688d57fcd0ee328e098aa
+# Source0-md5:	1bb472d159833263085b44d866381deb
 Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
@@ -25,8 +25,8 @@ Modu³ Perla Devel::PreProcessor obs³uguje osadzanie kodu i inne
 manipulacje na kodzie ¼ród³owym w Perlu.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-1999.022
-%patch -p1
+%setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -p3
 
 %build
 %{__perl} Makefile.PL \
