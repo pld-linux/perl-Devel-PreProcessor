@@ -5,7 +5,7 @@ Summary:	Devel::PreProcessor perl module
 Summary(pl):	Modu³ perla Devel::PreProcessor
 Name:		perl-Devel-PreProcessor
 Version:	1999.0220
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
