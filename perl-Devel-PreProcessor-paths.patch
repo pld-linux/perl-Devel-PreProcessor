@@ -1,0 +1,8 @@
+--- Devel-PreProcessor-1999.0204/lib/Devel/PreProcessor.pm	Thu Feb  4 23:25:35 1999
++++ Devel-PreProcessor-1999.0204.new/lib/Devel/PreProcessor.pm	Sat Oct  9 20:12:18 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -s
++#!/usr/bin/perl -s
+ 
+ ### Devel::PreProcessor - Module inlining and other Perl source manipulations
+ 
