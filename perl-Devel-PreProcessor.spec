@@ -17,11 +17,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel::PreProcessor perl module inlining and other Perl source
+Devel::PreProcessor Perl module - inlining and other Perl source
 manipulations.
 
 %description -l pl
-Modu³ perla Devel::PreProcessor.
+Modu³ Perla Devel::PreProcessor obs³uguje osadzanie kodu i inne
+manipulacje na kodzie ¼ród³owym w Perlu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-1999.022
@@ -35,7 +36,8 @@ Modu³ perla Devel::PreProcessor.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
