@@ -5,7 +5,7 @@ Summary:	Devel::PreProcessor - module inlining and other Perl source manipulatio
 Summary(pl):	Devel::PreProcessor - modu³ osadzaj±cy i inne manipulacje na ¼ród³ach w Perlu
 Name:		perl-Devel-PreProcessor
 Version:	2003.1128
-Release:	1
+Release:	2
 # same as perl
 # README says it is Artistic only
 License:	GPL v1+ or Artistic
