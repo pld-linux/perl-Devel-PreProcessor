@@ -2,9 +2,9 @@
 Summary:	Devel-PreProcessor perl module
 Summary(pl):	Modu³ perla Devel-PreProcessor
 Name:		perl-Devel-PreProcessor
-Version:	1999.0204
-Release:	3
-Copyright:	GPL
+Version:	1999.0220
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-PreProcessor-%{version}.tar.gz
@@ -22,7 +22,7 @@ Devel-PreProcessor perl module inlining and other Perl source manipulations.
 Modu³ perla Devel-PreProcessor.
 
 %prep
-%setup -q -n Devel-PreProcessor-%{version}
+%setup -q -n Devel-PreProcessor-1999.022
 %patch -p1
 
 %build
