@@ -5,12 +5,12 @@ Summary:	Devel::PreProcessor perl module
 Summary(pl):	Modu³ perla Devel::PreProcessor
 Name:		perl-Devel-PreProcessor
 Version:	1999.0220
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,7 +27,8 @@ Modu³ perla Devel::PreProcessor.
 %patch -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -41,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Devel/PreProcessor.pm
+%{perl_vendorlib}/Devel/PreProcessor.pm
 %{_mandir}/man3/*
