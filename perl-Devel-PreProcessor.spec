@@ -30,7 +30,7 @@ manipulacje na kodzie ¼ród³owym w Perlu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
