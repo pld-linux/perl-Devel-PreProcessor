@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	PreProcessor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel-PreProcessor perl module
 Summary(pl):	Modu³ perla Devel-PreProcessor
 Name:		perl-Devel-PreProcessor
 Version:	1999.0220
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ manipulations.
 Modu³ perla Devel-PreProcessor.
 
 %prep
-%setup -q -n Devel-PreProcessor-1999.022
+%setup -q -n %{pdir}-%{pnam}-1999.022
 %patch -p1
 
 %build
