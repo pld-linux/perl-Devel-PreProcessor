@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	PreProcessor
-Summary:	Devel-PreProcessor perl module
-Summary(pl):	Modu³ perla Devel-PreProcessor
+Summary:	Devel::PreProcessor perl module
+Summary(pl):	Modu³ perla Devel::PreProcessor
 Name:		perl-Devel-PreProcessor
 Version:	1999.0220
 Release:	6
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-PreProcessor perl module inlining and other Perl source
+Devel::PreProcessor perl module inlining and other Perl source
 manipulations.
 
 %description -l pl
-Modu³ perla Devel-PreProcessor.
+Modu³ perla Devel::PreProcessor.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-1999.022
