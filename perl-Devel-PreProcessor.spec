@@ -7,8 +7,8 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-PreProcessor-%{version}.tar.gz
-Patch:		perl-Devel-PreProcessor-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-PreProcessor-%{version}.tar.gz
+Patch0:		perl-Devel-PreProcessor-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,7 +16,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-PreProcessor perl module inlining and other Perl source manipulations.
+Devel-PreProcessor perl module inlining and other Perl source
+manipulations.
 
 %description -l pl
 Modu³ perla Devel-PreProcessor.
