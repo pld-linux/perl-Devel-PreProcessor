@@ -27,7 +27,7 @@ Modu³ perla Devel::PreProcessor.
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
