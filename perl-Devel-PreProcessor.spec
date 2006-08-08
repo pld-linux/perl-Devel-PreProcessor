@@ -28,7 +28,7 @@ manipulacje na kodzie ¼ród³owym w Perlu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -p3
+%patch0 -p3
 
 %build
 %{__perl} Makefile.PL \
