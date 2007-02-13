@@ -2,7 +2,7 @@
 %define		pdir	Devel
 %define		pnam	PreProcessor
 Summary:	Devel::PreProcessor - module inlining and other Perl source manipulations
-Summary(pl.UTF-8):   Devel::PreProcessor - moduł osadzający i inne manipulacje na źródłach w Perlu
+Summary(pl.UTF-8):	Devel::PreProcessor - moduł osadzający i inne manipulacje na źródłach w Perlu
 Name:		perl-Devel-PreProcessor
 Version:	2003.1128
 Release:	2
