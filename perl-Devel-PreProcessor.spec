@@ -1,6 +1,5 @@
 %define		pdir	Devel
 %define		pnam	PreProcessor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::PreProcessor - module inlining and other Perl source manipulations
 Summary(pl.UTF-8):	Devel::PreProcessor - moduł osadzający i inne manipulacje na źródłach w Perlu
 Name:		perl-Devel-PreProcessor
