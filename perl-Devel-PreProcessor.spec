@@ -28,7 +28,7 @@ manipulacje na kodzie źródłowym w Perlu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p3
+%patch -P0 -p3
 
 %build
 %{__perl} Makefile.PL \
